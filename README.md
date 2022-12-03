@@ -20,43 +20,43 @@
 
 **Images Portfolio Project:**
 
-About Me
+## About Me
 
-![alt text](project/src/assets/github/screen1.jpeg) 
+![alt text](/project/src/assets/github/screen1.jpeg) 
 <br/>
 
-![alt text](project/src/assets/github/screen2.jpeg) 
+![alt text](/project/src/assets/github/screen2.jpeg) 
 <br/>
 
-Project E-Commerce
+## Project E-Commerce
 
-![alt text](project/src/assets/github/screen3.jpeg) 
+![alt text](/project/src/assets/github/screen3.jpeg) 
 <br/>
 
-![alt text](project/src/assets/github/screen4.jpeg) 
+![alt text](/project/src/assets/github/screen4.jpeg) 
 <br/>
 
-![alt text](project/src/assets/github/screen5.jpeg) 
+![alt text](/project/src/assets/github/screen5.jpeg) 
 <br/>
 
-![alt text](project/src/assets/github/screen6.jpeg) 
+![alt text](/project/src/assets/github/screen6.jpeg) 
 <br/>
 
-Project Form
+## Project Form
 
-![alt text](project/src/assets/github/screen7.jpeg) 
+![alt text](/project/src/assets/github/screen7.jpeg) 
 <br/>
 
-![alt text](project/src/assets/github/screen8.jpeg) 
+![alt text](/project/src/assets/github/screen8.jpeg) 
 <br/>
 
-![alt text](project/src/assets/github/screen9.jpeg) 
+![alt text](/project/src/assets/github/screen9.jpeg) 
 <br/>
 
-Project Quotes
+## Project Quotes
 
-![alt text](project/src/assets/github/screen10.jpeg) 
+![alt text](/project/src/assets/github/screen10.jpeg) 
 <br/>
 
-![alt text](project/src/assets/github/screen11.jpeg) 
+![alt text](/project/src/assets/github/screen11.jpeg) 
 <br/>

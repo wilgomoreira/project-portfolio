@@ -6,6 +6,7 @@ import Home from '../pages/Home';
 import ProjectEcommerce from '../pages/ProjectEcommerce'
 import ProjectForm from '../pages/ProjectForm'
 import ProjectQuotes from '../pages/ProjectQuotes';
+import ProjectChecklist from '../pages/ProjectChecklist';
 
 
 export default function Routes() {
@@ -17,8 +18,10 @@ export default function Routes() {
                 initialRouteName="Home"
                 screenOptions={{
                     tabBarActiveTintColor: '#21243D',
-                    tabBarLabelStyle: { fontSize: 12,},
-                    tabBarStyle: { backgroundColor: '#EDF7FA'},
+                    tabBarLabelStyle: { fontSize: 11, },
+                    tabBarStyle: { backgroundColor: '#EDF7FA' },
+                    tabBarScrollEnabled: true,
+                    tabBarItemStyle:{width: 90}
                 }}
             >
                 <Tab.Screen
@@ -26,20 +29,27 @@ export default function Routes() {
                     component={Home}
                     options={{ tabBarLabel: 'About Me' }}
                 />
+
+                <Tab.Screen
+                    name="ProjectChecklist"
+                    component={ProjectChecklist}
+                    options={{ tabBarLabel: 'Checklist' }}
+                />
+
                 <Tab.Screen
                     name="ProjectEcommerce"
                     component={ProjectEcommerce}
-                    options={{ tabBarLabel: 'E-commerce Project' }}
+                    options={{ tabBarLabel: 'E-commerce' }}
                 />
                 <Tab.Screen
                     name="ProjectForm"
                     component={ProjectForm}
-                    options={{ tabBarLabel: 'Form Project' }}
+                    options={{ tabBarLabel: 'Form' }}
                 />
                 <Tab.Screen
                     name="ProjectQuotes"
                     component={ProjectQuotes}
-                    options={{ tabBarLabel: 'Quotes Project' }}
+                    options={{ tabBarLabel: 'Quotes' }}
                 />
             </Tab.Navigator>
         </NavigationContainer>
